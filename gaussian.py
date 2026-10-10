@@ -7,7 +7,7 @@ from frame_processor import FrameProcessor
 
 cap = cv2.VideoCapture("/dev/video0")
 
-# execute setup if no camera is found
+# TODO execute setup if no camera
 if not cap.isOpened():
     print("No camera found. Please set up a virtual camera.")
     exit(1)
